@@ -89,6 +89,11 @@ commonly used in financial crime and AML teams.
 - Flag wallets with abnormal value or velocity patterns
 - Support AML investigations with model-driven risk scoring
 
+## 📊 AML Risk Dashboard
+
+![Wallet Risk Dashboard](Looker_Dashboard.png)
+
+
 ## ⚠️ Data Disclaimer
 
 All datasets used in this project are **synthetically generated** for educational

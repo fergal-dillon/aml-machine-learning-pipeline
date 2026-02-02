@@ -9,6 +9,15 @@ using **SQL-based feature engineering**, **supervised machine learning with BigQ
 The goal is to identify potentially suspicious wallets based on transaction behavior patterns
 and generate interpretable, model-driven risk signals.
 
+## 🔄 Project Flow
+
+1. Raw transaction data ingested into BigQuery
+2. SQL-based feature engineering to extract AML risk signals
+3. Signals combined into a wallet-level feature table
+4. Supervised machine learning model (logistic regression) trained using labeled data
+5. Model predictions generated for wallet risk scoring
+6. Results visualized in Looker Studio dashboard
+
 ---
 
 ## 🔹 Architecture Overview
